@@ -1,0 +1,9 @@
+[package]
+name = "peripheral_linux"
+version = "0.1.0"
+authors = ["Samuel Dolt <samuel@dolt.ch>"]
+
+[dependencies]
+peripheral = { path="../peripheral/", features=["default", "use_std"]}
+sysfs_gpio = "0.4"
+
