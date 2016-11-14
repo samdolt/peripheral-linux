@@ -12,4 +12,6 @@ mod tests {
 
 
 
-mod gpio;
+pub mod gpio;
+pub use gpio::GPIO;
+
